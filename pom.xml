@@ -7,11 +7,24 @@
     <groupId>org.fakereplace.fakereplace-google-collections</groupId>
     <artifactId>fakereplace-google-collections</artifactId>
     <version>1.0.0.Final-SNAPSHOT</version>
+    <name>Fakereplace Google Collections</name>
+
     <description>
         A copy of the google collections 1.0 library, with the package name
         changed to avoid conflicts, and with all logging removed to prevent logging problems
         that can occur when attempting to use JUL in a javaagent.
     </description>
+
+    <licenses>
+        <license>
+            <name>Apache 2.0</name>
+            <url>http://repository.jboss.org/licenses/apache-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:fakereplace/fakereplace-google-collections.git</developerConnection>
+    </scm>
 
 
 </project>
