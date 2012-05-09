@@ -8,7 +8,7 @@
     <artifactId>fakereplace-google-collections</artifactId>
     <version>1.0.0.Final-SNAPSHOT</version>
     <description>
-        A copy of the google collections library, with the package name
+        A copy of the google collections 1.0 library, with the package name
         changed to avoid conflicts, and with all logging removed to prevent logging problems
         that can occur when attempting to use JUL in a javaagent.
     </description>
