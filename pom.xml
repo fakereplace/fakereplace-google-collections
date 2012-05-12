@@ -5,15 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.jboss</groupId>
-        <artifactId>jboss-parent</artifactId>
-        <version>8</version>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
     </parent>
 
     <groupId>org.fakereplace.fakereplace-google-collections</groupId>
     <artifactId>fakereplace-google-collections</artifactId>
     <version>1.0.1.Final-SNAPSHOT</version>
     <name>Fakereplace Google Collections</name>
+    <url>http://fakereplace.org</url>
 
     <description>
         A copy of the google collections 1.0 library, with the package name
@@ -29,8 +30,15 @@
     </licenses>
 
     <scm>
+        <url>https://github.com/fakereplace/fakereplace-google-collections</url>
         <developerConnection>scm:git:git@github.com:fakereplace/fakereplace-google-collections.git</developerConnection>
     </scm>
+
+    <developers>
+        <developer>
+            <name>Google</name>
+        </developer>
+    </developers>
 
 
 </project>
